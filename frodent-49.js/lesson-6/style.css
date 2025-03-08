@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.box-item {
+    width: 700px;
+    height: auto;
+    margin: 20px auto               ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-item {
+    width: 200px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
